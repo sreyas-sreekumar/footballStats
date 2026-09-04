@@ -43,3 +43,10 @@ Aim to make a fully deployed ,user tailored version of FotMob, SofaScore and to 
 ## Project Status
 In Active Development — Core Architecture & Database Migration Phase.
 Currently creating SQL database schemeas.
+
+**Phase 2 Completed (Core Endpoints & Raw SQL Integrations)**  
+- Handled PostgreSQL schema setup (`teams`, `players`, `users`, `user_favs`).
+- Built and verified core Express routes with custom query handlers, parameter extraction, and strict HTTP status handling (`200 OK`, `201 Created`, `400 Bad Request`, `404 Not Found`, `500 Server Error`).
+- Verified and tested with Postman.
+
+*Next Up: **Phase 3** — Implementing `bcrypt` password hashing, JWT authentication, and protecting user routes.*

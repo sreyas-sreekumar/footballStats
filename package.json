@@ -1,0 +1,25 @@
+{
+  "name": "footballstats",
+  "version": "1.0.0",
+  "description": "A backend-first football statistics REST API platform that continuously ingests match data, stores and processes statistical metrics in PostgreSQL, accelerates query throughput via Redis caching, and serves machine-learning player similarity vectors. Aim to make a fully deployed ,user tailored version of FotMob, SofaScore and to showcase machine learning skills in two passions of mine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreyas-sreekumar/footballStats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreyas-sreekumar/footballStats/issues"
+  },
+  "homepage": "https://github.com/sreyas-sreekumar/footballStats#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}
